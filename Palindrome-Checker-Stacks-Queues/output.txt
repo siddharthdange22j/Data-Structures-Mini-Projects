@@ -1,0 +1,26 @@
+Sample Run 1
+
+==========================================
+       PALINDROME CHECKER
+       Using Stack and Queue
+==========================================
+
+Enter a word or sentence: MADAM
+Normalized text: madam
+Result: It IS a palindrome.
+
+Check another text? (y/n): y
+
+Enter a word or sentence: HELLO
+Normalized text: hello
+Result: It is NOT a palindrome.
+
+Check another text? (y/n): n
+Thank you for using the Palindrome Checker!
+
+
+Sample Run 2
+
+Enter a word or sentence: Never odd or even
+Normalized text: neveroddoreven
+Result: It IS a palindrome.
