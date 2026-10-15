@@ -1,0 +1,43 @@
+Sample Run
+
+================================================
+          JOB SCHEDULING SYSTEM
+       Using Graphs and Topological Sort
+================================================
+
+1. Generate sample job schedule
+2. Demonstrate cycle detection
+3. Exit
+Enter your choice: 1
+
+Jobs:
+  A - Collect requirements
+  B - Design the system
+  C - Prepare the database
+  D - Develop the application
+  E - Test the application
+
+Dependencies:
+  A must finish before B
+  A must finish before C
+  B must finish before D
+  C must finish before D
+  D must finish before E
+
+Generated Job Schedule:
+1. A - Collect requirements
+2. B - Design the system
+3. C - Prepare the database
+4. D - Develop the application
+5. E - Test the application
+
+All jobs can be scheduled successfully.
+
+1. Generate sample job schedule
+2. Demonstrate cycle detection
+3. Exit
+Enter your choice: 2
+
+Cycle demonstration: A -> B -> C -> A
+A valid schedule cannot be generated.
+Reason: A cycle exists in the job dependencies.
